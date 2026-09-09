@@ -1,0 +1,44 @@
+.contatos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.main-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--text-dark);
+}
+
+.contatos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  margin-top: 1rem;
+}
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+
+.contato-item .label {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.contato-item .value {
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .contato-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+}

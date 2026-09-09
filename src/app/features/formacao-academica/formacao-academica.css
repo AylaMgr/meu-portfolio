@@ -1,0 +1,50 @@
+.resumo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.main-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--text-dark);
+}
+
+.resumo-text {
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+  text-align: justify;
+}
+
+.resumo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.section-subtitle {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.yellow-card {
+  background-color: var(--bg-inner);
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.yellow-card p {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #222;
+}
+
+.yellow-card strong {
+  color: var(--text-dark);
+}
