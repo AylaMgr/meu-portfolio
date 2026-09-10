@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ObjetivoProfissional } from './objetivo-profissional';
+import { ObjetivoProfissional } from './contato';
 
 describe('ObjetivoProfissional', () => {
   let component: ObjetivoProfissional;

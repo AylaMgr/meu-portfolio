@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-objetivo-profissional',
   standalone: true,
   imports: [],
-  templateUrl: './objetivo-profissional.html',
-  styleUrl: './objetivo-profissional.css'
+  templateUrl: './contato.html',
+  styleUrl: './contato.css'
 })
-export class ObjetivoProfissional {}
+export class contato {}
